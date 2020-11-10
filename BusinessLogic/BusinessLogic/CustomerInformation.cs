@@ -1,11 +1,12 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace BusinessLogic
 {
     public class CustomerName
     {
         private string _firstName { get; set; }
         private string _lastName { get; set; }
+        
 
         public CustomerName(string firstName, string lastName)
         {
@@ -16,6 +17,7 @@ namespace BusinessLogic
         {
             return $"{_firstName} {_lastName}";
         }
+        
 
     }
 }
