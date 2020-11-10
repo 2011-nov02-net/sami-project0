@@ -32,21 +32,7 @@ namespace BusinessLogic
             };
             
 
-            //using (StreamReader sr = new StreamReader(@"C: \Users\andre\source\repos\sami - project0"))
-            //{
-            //  string line = null;
-
-            // while it reads a key
-            //while ((line = sr.ReadLine()) != null)
-            //{
-            // add the key and whatever it 
-            // can read next as the value
-            //  store.Add(line, sr.ReadLine());
-
-            //}
-            //  }
-            //foreach (var kvp in store)
-              //  Console.WriteLine("Key: {0}, Value: {1}", kvp.Key, kvp.Value);
+           
         }
      
     }

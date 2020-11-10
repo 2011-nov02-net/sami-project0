@@ -18,7 +18,7 @@ namespace UserInterface.ConsoleApp
             CustomerNameList.Add(cusName);
             CustomerNameList.ForEach(Console.WriteLine);
 
-            //print dictionary test
+            //print dictionary test- need to move to StoreInformation class
             Dictionary<string,string> store = new Dictionary<string, string>
             {
                 { "Flowerworks - Dallas", "0001" },
